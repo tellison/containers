@@ -3,6 +3,9 @@ name: Sanity
 on:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   sanity:
     name: Check
